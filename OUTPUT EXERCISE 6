@@ -1,0 +1,21 @@
+Enter eight number/data
+34
+23
+56
+78
+sum= 191
+12
+34
+53
+13
+sum= 112
+
+total= 303
+Row = 0  Col = 0 34
+Row = 0  Col = 1 23
+Row = 0  Col = 2 56
+Row = 0  Col = 3 78
+Row = 1  Col = 0 12
+Row = 1  Col = 1 34
+Row = 1  Col = 2 53
+Row = 1  Col = 3 13
