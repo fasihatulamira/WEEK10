@@ -1,0 +1,23 @@
+package myArray;
+import java.util.Scanner;
+public class ex4 {
+public static void main(String[] args) {
+	
+	int num[]= new int [5];
+	int sum=0;
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println(" enter 5 number: ");
+	for(int i=0; i<num.length; i++) {
+		num[i]=sc.nextInt();
+		sum=sum+num[i];
+	}
+
+       for(int i=0; i<num.length; i++) { 
+		System.out.println("the number are: "+ "index "+ i+ " = " + num[i]);
+       }
+		System.out.println("Sum is: " + sum);
+		System.out.println("the average is: "+ sum/num.length);
+	
+}
+}
