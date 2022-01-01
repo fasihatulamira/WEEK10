@@ -1,0 +1,35 @@
+package myArray;
+import java.util.Scanner;
+public class ex5 {
+
+public static void main(String[] args) {
+	
+	int sale[][]=new int [3][3];
+	int num[]= new int [5];
+	int sum=0;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("enter sales per line ");
+	
+	for(int i=0; i<sale.length; i++) {
+	      for(int y=0; y<sale.length; y++) {
+	        sale[i][y]=sc.nextInt();
+	        sum=sum+sale[i][y];
+	      }}
+	
+	for(int i=0; i<sale.length; i++) {
+      for(int y=0; y<sale.length; y++) {
+    	System.out.println("i = " + i + " y = "+ y);
+		System.out.println("values for sale is: "+ sale[i][y]);
+		
+      }}
+	
+	int avg= sum/sale.length;
+	
+	System.out.println("the sum of sales is: "+ sum);
+	System.out.println("the average is: " +avg);
+	
+	}
+}
+
