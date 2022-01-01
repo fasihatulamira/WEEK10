@@ -1,0 +1,30 @@
+enter sales per line 
+23
+34
+45
+56
+67
+89
+34
+54
+34
+i = 0 y = 0
+values for sale is: 23
+i = 0 y = 1
+values for sale is: 34
+i = 0 y = 2
+values for sale is: 45
+i = 1 y = 0
+values for sale is: 56
+i = 1 y = 1
+values for sale is: 67
+i = 1 y = 2
+values for sale is: 89
+i = 2 y = 0
+values for sale is: 34
+i = 2 y = 1
+values for sale is: 54
+i = 2 y = 2
+values for sale is: 34
+the sum of sales is: 436
+the average is: 145
