@@ -1,0 +1,46 @@
+package myArray2D;
+import java.util.*;
+public class testArray2D {
+	public static void main (String args[] ){
+   int[] a= new int[4];
+   int[] a1= new int[4];
+   int total;
+   
+   int row=2;
+   int col=4;
+   int[][] b= new int[row][col];
+   
+   Scanner sc=new Scanner(System.in);
+   
+   System.out.println("Enter eight number/data");
+   total=0;
+   for (int i=0; i<row; i++) {
+	   int sum=0;
+	   for (int j=0; j<col ; j++) {
+            b[i][j]= sc.nextInt();
+   sum= sum + b[i][j];
+	   }
+	   System.out.println("sum= "+ sum);
+	   total=total+sum;
+	   }
+   System.out.println("\ntotal= "+ total);
+
+   for (int i=0; i<row; i++)
+	   for (int j=0; j<col ; j++)
+            System.out.println("Row = " + i + "  "+ "Col = "+ j +" "+ b[i][j]);
+            
+   /*System.out.println("Enter four number for row a");
+   for(int i=0; i<a.length; i++) 
+	   a[i]=sc.nextInt();
+   System.out.println("Enter four number for row a1");
+   for(int i=0; i<a.length; i++) 
+		   a1[i]=sc.nextInt();
+   
+   for(int i=0; i<a.length; i++) 
+	   System.out.println("row a =" + a[i]);
+   for(int i=0; i<a.length; i++) 
+	   System.out.println("row a1 =" + a1[i]);
+	*/   
+   
+}
+}
